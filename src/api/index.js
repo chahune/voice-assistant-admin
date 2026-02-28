@@ -84,3 +84,8 @@ export const vectorClear = () => api.post('/api/vector/clear')
 
 export const vectorSyncFromDevices = () =>
   api.post('/api/vector/sync-from-devices')
+
+// ============ 聊天记录 ============
+export const chatHistory = (page = 0, size = 20) =>
+  api.get('/api/chat/history', { params: { page, size } })
+

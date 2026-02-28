@@ -43,6 +43,7 @@
         <el-button type="primary" @click="$router.push('/voice')">语音上传 / TTS</el-button>
         <el-button @click="$router.push('/devices')">设备管理</el-button>
         <el-button @click="$router.push('/vector')">知识库管理</el-button>
+        <el-button @click="$router.push('/chat-history')">查看问答记录</el-button>
       </el-space>
     </el-card>
   </div>

@@ -25,6 +25,10 @@
           <el-icon><Document /></el-icon>
           <span>知识库</span>
         </el-menu-item>
+        <el-menu-item index="/chat-history">
+          <el-icon><Document /></el-icon>
+          <span>问答记录</span>
+        </el-menu-item>
       </el-menu>
     </el-aside>
     <el-main class="main">
