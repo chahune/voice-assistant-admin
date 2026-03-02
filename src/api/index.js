@@ -89,3 +89,7 @@ export const vectorSyncFromDevices = () =>
 export const chatHistory = (page = 0, size = 20) =>
   api.get('/api/chat/history', { params: { page, size } })
 
+// ============ 天气 ============
+export const getWeather = (city) =>
+  api.get('/api/weather', { params: { city } })
+

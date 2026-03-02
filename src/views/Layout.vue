@@ -29,6 +29,10 @@
           <el-icon><Document /></el-icon>
           <span>问答记录</span>
         </el-menu-item>
+        <el-menu-item index="/weather">
+          <el-icon><Sunny /></el-icon>
+          <span>天气查询</span>
+        </el-menu-item>
       </el-menu>
     </el-aside>
     <el-main class="main">
@@ -38,7 +42,7 @@
 </template>
 
 <script setup>
-import { House, Microphone, Setting, Document } from '@element-plus/icons-vue'
+import { House, Microphone, Setting, Document, Sunny } from '@element-plus/icons-vue'
 </script>
 
 <style scoped>
